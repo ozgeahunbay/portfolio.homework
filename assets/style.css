@@ -1,0 +1,254 @@
+body{
+    position:relative;
+    margin:0;
+}
+
+.header{
+    box-sizing: border-box;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    color:wheat; 
+    background-image:url(.//IMG_2881.jpg);
+    background-size:cover; 
+    background-position:0 -100px;
+    height:300px;
+    width:100%;
+}
+
+a {
+    color:wheat;
+    font-family:'Courier New', Courier, monospace;
+    box-sizing: content-box;
+}
+
+.pwwriting{
+    display:flex;
+    flex-direction:column;
+}
+.previouswork{
+    color:wheat;
+    background-color: rgb(137, 60, 2);
+    display:flex;
+    flex-direction:row;
+}
+
+
+.rps{
+    box-sizing: border-box;
+    height:300px;
+    width:300px;
+    display:flex;
+    text-align:center;
+    flex-wrap:wrap;
+    color:wheat; 
+    background-image:url(./IMG_8393.jpg);
+    background-size:cover; 
+    background-position:0, 100px;
+}
+
+.project{
+    box-sizing: border-box;
+    height:150px;
+    width:150px;
+    display:flex;
+    text-align:center;
+    flex-wrap:wrap;
+    color:rgb(34, 24, 5); 
+    background-image:url(./IMG_7160.jpg);
+    background-size:cover; 
+    background-position:0, 100px;
+}
+
+.whoo{
+    box-sizing: border-box;
+    height:150px;
+    width:150px;
+    display:flex;
+    text-align:center;
+    flex-wrap:wrap;
+    color:wheat; 
+    background-image:url(./IMG_7277.jpg);
+    background-size:cover; 
+    background-position:0, 100px;
+}
+
+.whee{
+box-sizing: border-box;
+height:150px;
+width:153px;
+display:flex;
+text-align:center;
+flex-wrap:wrap;
+color:wheat; 
+background-image:url(./IMG_2902.jpg);
+background-size:cover; 
+background-position:0, 100px;
+}
+
+.yay{
+box-sizing: border-box;
+height:150px;
+width:150px;
+display:flex;
+text-align:center;
+flex-wrap:wrap;
+color:rgb(41, 29, 7); 
+background-image:url(./IMG_2240.jpg);
+background-size:cover; 
+background-position:0, 100px;
+}
+
+.linkys{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-end;
+}
+
+.aboutme{
+    display:flex;
+    flex-direction:row;
+    background-color:rgb(61, 103, 43);
+    color:wheat;
+}
+.abtmewriting{
+    display:flex;
+    flex-direction:column;
+}
+
+img{
+   
+    width: 200px;
+    height: 303px;
+}
+
+
+.contactme{
+    display:flex;
+    flex-direction:column;
+    background-color: rgb(72, 58, 47);
+    color:wheat;
+}
+
+footer{
+    color:wheat;
+    background-color: rgb(137, 60, 2);
+    display:flex;
+    flex-direction:row;
+}
+
+
+@media screen and (max-width: 480px) {
+    .header {
+        max-width: 100%;
+        box-sizing:border-box;
+    }
+    .previouswork{
+        max-width: 100%;
+        box-sizing:border-box;
+        flex-direction:column;
+    }
+    .aboutme{
+        max-width: 100%;
+        box-sizing:border-box;
+    }
+    .contactme{
+        max-width: 100%;
+        box-sizing:border-box;
+    }
+
+    .rps{
+        justify-content:center;
+    }
+
+    .linkys{
+        flex-direction: row;
+        justify-content: center;
+        align-items:center;
+    }
+
+    .links2{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items:center;
+    }
+
+  }
+
+  @media screen and (max-width: 690px) {
+    .header {
+        max-width: 100%;
+        box-sizing:border-box;
+    }
+    .previouswork{
+        max-width: 100%;
+        box-sizing:border-box;
+        flex-direction:column;
+    }
+    .aboutme{
+        max-width: 100%;
+        box-sizing:border-box;
+    }
+    .contactme{
+        max-width: 100%;
+        box-sizing:border-box;
+    }
+
+    .rps{
+        justify-content:center;
+    }
+
+    .linkys{
+        flex-direction: row;
+        justify-content: center;
+        align-items:center;
+    }
+
+    .links2{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items:center;
+    }
+
+  }
+
+  /* @media screen and (max-width: 768px) {
+    .header {
+  width: 100%;
+    }
+    .previouswork{
+        width:100%
+    }
+    .aboutme{
+        width:100%
+    }
+    .contactme{
+        width:100%
+    }
+
+  }  */
+
+
+
+/*@media screen and (max-width : 480px) {
+    #wrap {max-width:320px}
+    * {
+       box-sizing: border-box;
+       -moz-box-sizing: border-box;
+    }
+}*/
+
+
+
+/*@media screen and (max-width: 480px){
+    #wrap {max-width:320px}
+}
+*/
+
+
+
